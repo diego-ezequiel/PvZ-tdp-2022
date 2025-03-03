@@ -1,0 +1,1 @@
+tal vez la grilla deba ser de Planta en lugar de Entidad, porque al final solo nos va a interesar para agregar las plantas, los Zombies simplemente "pasan  por arriba", por así decir
