@@ -3,7 +3,7 @@ package Entidades.Zombies;
 import java.awt.Image;
 import java.awt.Toolkit;
 
-public class Caracono extends Zombie{
+public class Caracono extends Comun{
 	public Caracono(int x, int y) {
 		super(x, y);
 		vida=300;
@@ -29,6 +29,8 @@ public class Caracono extends Zombie{
 				sprite=Toolkit.getDefaultToolkit().getImage("assets/sprites/Zombies/ConeHeadZombie/ConeHeadZombieAttack.gif");
 			else
 				sprite=Toolkit.getDefaultToolkit().getImage("assets/sprites/Zombies/ConeHeadZombie/ConeHeadZombie.gif");
+		} else {
+			super.actualizarSprite();
 		}
 		return sprite;
 	}
